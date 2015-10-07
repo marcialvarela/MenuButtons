@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.phonegap.MenuButtons" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Hello World</name>
+    <name>Menu Buttons</name>
     <description>
         Menu Buttons sample application that responds to the deviceready event.
     </description>
@@ -9,6 +9,9 @@
     </author>
     <content src="index.html" />
     <preference name="permissions" value="none" />
+    <!-- si se utiliza la versión de phonegap 3.6.3 no funciona la geolocalización -->
+    <preference name="phonegap-version" value="3.5.0" />
+
     <preference name="orientation" value="default" />
     <preference name="target-device" value="universal" />
     <preference name="fullscreen" value="true" />
